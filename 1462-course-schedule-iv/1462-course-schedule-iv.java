@@ -1,5 +1,6 @@
 class Solution {
     public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
+        //Khan's Algorightm
         List<Set<Integer>> adj = new ArrayList<>();
         List<Set<Integer>> isPrereq = new ArrayList<>();
         int[] indegree = new int[numCourses];
