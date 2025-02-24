@@ -1,3 +1,5 @@
+
+
 class Solution {
     // Using sliding window
     public int longestOnes(int[] nums, int k) {
@@ -17,6 +19,10 @@ class Solution {
             right++;
         }
 
+       
+        
+        System.out.println("Current Date and Time: " + formattedDateTime);
         return maxLen;
     }
 }
+
