@@ -1,33 +1,29 @@
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-
-        int originalColor = image[sr][sc];
-        if (originalColor == color) return image;
-
-        Queue<int[]> queue = new LinkedList<>();
-        boolean[][] visited = new boolean[image.length][image[0].length];
-        queue.add(new int[] {sr, sc});
+        int preFilled = image[sr][sc];
         
-        int[][] directions = { {0, 1}, {0, -1}, {1, 0}, {-1, 0} };
+        // Avoid infinite recursion if color is already the same
+        if (preFilled == color) return image;  
 
-        while(!queue.isEmpty()) {
-            int[] currNode = queue.poll();
-            int row = currNode[0];
-            int col = currNode[1];
-            visited[row][col] = true;
-            image[row][col] = color;
-
-            for(int[] direction : directions) {
-                int newRow = row + direction[0];
-                int newCol = col + direction[1];
-
-                if(0 <= newRow && newRow < image.length && 0 <= newCol && newCol < image[0].length && (image[newRow][newCol] == originalColor  && !visited[newRow][newCol])) {
-                    queue.add(new int[] {newRow, newCol});
-                    
-                }
-            }
-        }
+        dfs(image, sr, sc, color, preFilled);
 
         return image;
+    }
+
+    private void dfs(int[][] image, int row, int col, int color, int preFilled) {
+        int rows = image.length;
+        int cols = image[0].length;
+
+        if(row < 0 || row >= rows || col < 0 || col >= cols || image[row][col] != preFilled) {
+            return;
+        }
+
+        image[row][col] = color;
+
+        dfs(image, row + 1, col, color, preFilled);
+        dfs(image, row, col + 1, color, preFilled);
+        dfs(image, row - 1, col, color, preFilled);
+        dfs(image, row, col - 1, color, preFilled);
+
     }
 }
