@@ -37,29 +37,26 @@
 
 class Solution {
     public void sortColors(int[] nums) {
-        int n = nums.length;
-        int low = 0, mid = 0, high = n - 1;
+        int low = 0, mid = 0, high = nums.length - 1;
 
-        while(mid <= high) {
-            if(nums[mid] == 0) {
-                // Swap
-                int temp = nums[mid];
-                nums[mid] = nums[low];
-                nums[low] = temp;
+        while (mid <= high) {
+            if (nums[mid] == 0) {
+                // Swap nums[low] and nums[mid]
+                int temp = nums[low];
+                nums[low] = nums[mid];
+                nums[mid] = temp;
                 low++;
                 mid++;
-            }
-            else if(nums[mid] == 2) {
-                // swap
+            } else if (nums[mid] == 2) {
+                // Swap nums[mid] and nums[high]
                 int temp = nums[mid];
                 nums[mid] = nums[high];
                 nums[high] = temp;
                 high--;
-            }
-            else{
+                // Don't increment mid here
+            } else {
                 mid++;
             }
         }
     }
-
 }
