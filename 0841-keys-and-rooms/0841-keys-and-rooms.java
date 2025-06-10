@@ -15,13 +15,14 @@ class Solution {
 
         for(Integer num : adjList.get(0)) {
             stack.push(num);
+            visited[num] = true;
         }
         visited[0] = true;
 
         while(!stack.isEmpty()) {
 
             int curr = stack.pop();
-            visited[curr] = true;
+            // visited[curr] = true;
 
             for(Integer neighbour : adjList.get(curr)) {
                 if(visited[neighbour] == false) {
