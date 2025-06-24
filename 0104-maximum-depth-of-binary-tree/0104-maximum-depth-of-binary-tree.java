@@ -13,24 +13,23 @@
  *     }
  * }
  */
- 
+
 class Solution {
     public int maxDepth(TreeNode root) {
         if(root == null) return 0;
-        int maxHeight = 0;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
 
-        while(!queue.isEmpty()) {
-            int size = queue.size();
+        int maxHeight = 0;
+        while(!queue.isEmpty()){
             maxHeight++;
+            int size = queue.size();
             while(size > 0){
+                size--;
                 TreeNode currNode = queue.poll();
                 if(currNode.left != null) queue.offer(currNode.left);
                 if(currNode.right != null) queue.offer(currNode.right);
-                size--;
             }
-
         }
 
         return maxHeight;
