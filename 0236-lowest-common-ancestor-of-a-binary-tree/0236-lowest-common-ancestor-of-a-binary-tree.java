@@ -8,22 +8,49 @@
  * }
  */
 class Solution {
+    
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if(root == null || root == p || root == q) {
-            return root;
+       
+        List<TreeNode> pathP = new ArrayList<>();
+        List<TreeNode> pathQ = new ArrayList<>();
+
+        TreeNode temp = root;
+        getPath(new ArrayList<>(), temp, p, pathP);
+        temp = root;
+        getPath(new ArrayList<>(), temp, q, pathQ);
+
+        TreeNode result = null;
+
+        int index = 0;
+
+        while(index < pathP.size() && index < pathQ.size()) {
+            if(pathP.get(index) == pathQ.get(index)) {
+                result = pathP.get(index);
+            }
+            index++;
         }
 
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        return result;
 
-        if(left == null) {
-            return right;
+    }
+
+    private void getPath(List<TreeNode> path, TreeNode node, TreeNode targetNode, List<TreeNode> ans) {
+        if(node == null) {
+            return;
         }
-        else if(right == null) {
-            return left;
+
+        path.add(node);
+
+        if(node == targetNode) {
+            ans.clear();
+            ans.addAll(path);
         }
         else{
-            return root;
+            getPath(path, node.left, targetNode, ans);
+            getPath(path, node.right, targetNode, ans);
         }
+
+        path.remove(path.size() - 1);
+
     }
-}
+} 
