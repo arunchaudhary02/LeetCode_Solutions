@@ -7,19 +7,19 @@ class Solution {
             count.put(num, count.getOrDefault(num, 0) + 1);
         }
 
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+        PriorityQueue<int[]> minHeap = new PriorityQueue<>((a, b) -> a[0] - b[0]);
 
         for(Map.Entry<Integer, Integer> entry : count.entrySet()){
-            pq.offer(new int[]{entry.getValue(), entry.getKey()});
+            minHeap.offer(new int[]{entry.getValue(), entry.getKey()});
 
-            if(pq.size() > k){
-                pq.poll();
+            if(minHeap.size() > k){
+                minHeap.poll();
             }
         }
 
         int[] ans = new int[k];
         for(int i = 0; i < k; i++) {
-            ans[i] = pq.poll()[1];
+            ans[i] = minHeap.poll()[1];
         }
 
         return ans;
