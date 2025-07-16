@@ -1,78 +1,54 @@
-class Pair{
-    int first;
-    int second;
-
-    public Pair(int first, int second) {
-        this.first = first;
-        this.second = second;
-    }
-}
-
-class Tuple{
-    int first, second, third; // first = stopage, second = node, third = cost
-
-    public Tuple(int first, int second, int third) {
-        this.first = first;
-        this.second = second;
-        this.third = third;
-    }
-}
 
 class Solution {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        
 
-        ArrayList<ArrayList<Pair>> adj = new ArrayList<>();
-        for(int i = 0; i < n; i++) {
-            adj.add(new ArrayList<>());
+        Map<Integer, List<int[]>> adjList = new HashMap<>();
+
+        for (int[] flight : flights) {
+            int u = flight[0];
+            int v = flight[1];
+            int cost = flight[2];
+
+            adjList.computeIfAbsent(u, key -> new ArrayList<>()).add(new int[]{v, cost});
         }
 
-        for(int i = 0; i < flights.length; i++) {
-            adj.get(flights[i][0]).add(new Pair(flights[i][1], flights[i][2]));
+        int[] distance = new int[n];
+        for (int i = 0; i < n; i++) {
+            distance[i] = Integer.MAX_VALUE;
         }
+        distance[src] = 0;
 
-        Queue<Tuple> queue = new LinkedList<>();
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[] { src, 0 });
 
-        queue.offer(new Tuple(0, src, 0));
+        int stopCount = 0;
 
-        int[] dist = new int[n];
+        while (!queue.isEmpty() && stopCount <= k) {
 
-        for(int i = 0; i < n; i++) {
-            dist[i] = Integer.MAX_VALUE;
-        }
+            int size = queue.size();
 
-        dist[src] = 0;
+            for (int i = 0; i < size; i++) {
+                int[] current = queue.poll();
+                int currNode = current[0];
+                int currCost = current[1];
 
-        while(!queue.isEmpty()) {
-            Tuple it = queue.poll();
+                List<int[]> neighbours = adjList.getOrDefault(currNode, Collections.emptyList());
+                for (int[] neighbour : neighbours) {
+                    int nextNode = neighbour[0];
+                    int newCost = neighbour[1];
 
-            int stops = it.first;
-            int node = it.second;
-            int cost = it.third;
+                    if (distance[nextNode] > currCost + newCost) {
+                        distance[nextNode] = currCost + newCost;
+                        queue.offer(new int[] { nextNode, newCost + currCost});
+                    }
 
-            // We stop the process as soon as the limit for the stops reaches.
-            if(stops > k) {
-                continue;
-            }
-
-            for(Pair neigh : adj.get(node)) {
-
-                int adjNode = neigh.first;
-                int newCost = neigh.second;
-
-                // We only update the queue if the new calculated dist is
-                // less than the prev and the stops are also within limits.
-                if((cost + newCost < dist[adjNode])  && stops <= k) {
-                    dist[adjNode] = cost + newCost;
-                    queue.offer(new Tuple(stops + 1, adjNode, cost + newCost));
                 }
             }
+
+            stopCount++;
         }
 
-        if(dist[dst] == Integer.MAX_VALUE) {
-            return - 1;
-        }
+        return (distance[dst] == Integer.MAX_VALUE) ? -1 : distance[dst];
 
-        return dist[dst];
     }
 }
