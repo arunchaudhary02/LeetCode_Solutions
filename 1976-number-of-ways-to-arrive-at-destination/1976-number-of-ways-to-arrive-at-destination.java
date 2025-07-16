@@ -1,57 +1,48 @@
-class Pair {
-    int first;
-    int second;
-
-    public Pair(int first, int second) {
-        this.first = first;
-        this.second = second;
-    }
-}
-
-class Solution {
+ class Solution {
     public int countPaths(int n, int[][] roads) {
-        ArrayList<ArrayList<Pair>> adj = new ArrayList<>();
+        List<List<int[]>> graph = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            adj.add(new ArrayList<>());
+            graph.add(new ArrayList<>());
         }
-
+        
         for (int[] road : roads) {
-            adj.get(road[0]).add(new Pair(road[1], road[2]));
-            adj.get(road[1]).add(new Pair(road[0], road[2]));
+            int u = road[0], v = road[1], time = road[2];
+            graph.get(u).add(new int[]{v, time});
+            graph.get(v).add(new int[]{u, time});
         }
 
-        int[] dist = new int[n];
+        long[] dist = new long[n];
         int[] ways = new int[n];
-        Arrays.fill(dist, Integer.MAX_VALUE);
+        Arrays.fill(dist, Long.MAX_VALUE);
         dist[0] = 0;
         ways[0] = 1;
 
-        PriorityQueue<Pair> pq = new PriorityQueue<>((a, b) -> Integer.compare(a.first, b.first));
-        pq.add(new Pair(0, 0));
+        PriorityQueue<long[]> pq = new PriorityQueue<>((a, b) -> Long.compare(a[0], b[0]));
+        pq.offer(new long[]{0, 0});
 
-        int mod = (int) 1e9 + 7;
+        int MOD = 1_000_000_007;
 
         while (!pq.isEmpty()) {
-            Pair top = pq.poll();
-            int dis = top.first;
-            int node = top.second;
+            long[] curr = pq.poll();
+            long d = curr[0];
+            int node = (int) curr[1];
 
-            if (dis > dist[node]) continue; // \U0001f4a5 important fix!
+            if (d > dist[node]) continue;
 
-            for (Pair neighbor : adj.get(node)) {
-                int adjNode = neighbor.first;
-                int weight = neighbor.second;
+            for (int[] neighbor : graph.get(node)) {
+                int nextNode = neighbor[0];
+                int time = neighbor[1];
 
-                if (dis + weight < dist[adjNode]) {
-                    dist[adjNode] = dis + weight;
-                    pq.add(new Pair(dist[adjNode], adjNode));
-                    ways[adjNode] = ways[node];
-                } else if (dis + weight == dist[adjNode]) {
-                    ways[adjNode] = (ways[adjNode] + ways[node]) % mod;
+                if (dist[node] + time < dist[nextNode]) {
+                    dist[nextNode] = dist[node] + time;
+                    ways[nextNode] = ways[node];
+                    pq.offer(new long[]{dist[nextNode], nextNode});
+                } else if (dist[node] + time == dist[nextNode]) {
+                    ways[nextNode] = (ways[nextNode] + ways[node]) % MOD;
                 }
             }
         }
 
-        return ways[n - 1] % mod;
+        return ways[n - 1];
     }
 }
