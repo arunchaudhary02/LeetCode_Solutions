@@ -1,21 +1,22 @@
 class Solution {
     public int maxArea(int[] height) {
-        int result = 0;
-        int leftPtr = 0, rightPtr = height.length - 1;
+        int L = 0, R = height.length - 1;
 
-        while(leftPtr != rightPtr) {
-            int heightofR = Math.min(height[leftPtr], height[rightPtr]);
-            int breadth = rightPtr - leftPtr;
+        int maxArea = 0;
 
-            result = Math.max(result, heightofR * breadth);
+        while(L < R) {
+            int len = Math.min(height[L], height[R]);
+            int breath = R - L;
 
-            if(height[leftPtr] > height[rightPtr]) {
-                rightPtr--;
+            maxArea = Math.max(maxArea, (len * breath));
+            if(height[L] < height[R]) {
+                L++;
             }
-            else {
-                leftPtr++;
+            else{
+                R--;
             }
         }
-        return result;
+
+        return maxArea;
     }
 }
