@@ -8,6 +8,11 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+// Approach 1
+
+
+/*
 class Solution {
     public boolean isPalindrome(ListNode head) {
         if(head == null) return true;
@@ -16,7 +21,7 @@ class Solution {
         ListNode slow = head, fast = head;
         while(fast != null && fast.next != null) {
             slow = slow.next;
-            fast = fast.next;
+            fast = fast.next.next;
         }
 
         // Reverse the Second half
@@ -38,6 +43,34 @@ class Solution {
             }
             firstHalf = firstHalf.next;
             secondHalf = secondHalf.next;
+        }
+
+        return true;
+    }
+}
+*/
+
+
+// Approach 2
+
+class Solution {
+    public boolean isPalindrome(ListNode head) {
+        Stack<Integer> stack = new Stack<>();
+
+        ListNode temp = head;
+
+        while(temp != null) {
+            stack.push(temp.val);
+            temp = temp.next;
+        }
+
+        temp = head;
+
+        while(temp != null && !stack.isEmpty()) {
+            if(temp.val != stack.pop()) {
+                return false;
+            }
+            temp = temp.next;
         }
 
         return true;
