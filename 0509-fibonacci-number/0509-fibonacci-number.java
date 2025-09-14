@@ -6,10 +6,14 @@ class Solution {
     }
 
     private int helper(int n, Map<Integer, Integer> dp) {
-        if(n <= 1) {
-            return n;
+        
+        if(n == 0) {
+            return 0;
         }
-
+        else if(n == 1) {
+            return 1;
+        }
+        
         if(dp.containsKey(n)) {
             return dp.get(n);
         }
