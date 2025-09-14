@@ -22,28 +22,84 @@
 
 // Method 2
 
+// class Solution {
+//     public void rotate(int[] nums, int k) {
+//         if(nums.length == 1) {
+//             return;
+//         }
+
+//         int n = nums.length;
+//         int[] temp = new int[k];
+
+//         k = k % n; 
+        
+//         int index = 0;
+//         for(int i = n - k; i < n; i++) {
+//             temp[index++] = nums[i];
+//         }
+
+//         for(int i = n - k - 1; i >= 0; i--) {
+//             nums[i + k] = nums[i];
+//         }
+
+//         for(int i = 0; i < k; i++) {
+//             nums[i] = temp[i];
+//         }
+//     } 
+// }
+
+
+
+
 class Solution {
     public void rotate(int[] nums, int k) {
-        if(nums.length == 1) {
+
+        k = k % nums.length;
+
+        if(k == 0 || k == nums.length) {
             return;
         }
 
-        int n = nums.length;
-        int[] temp = new int[k];
+        int[] temp = new int[nums.length];
 
-        k = k % n; 
-        
         int index = 0;
-        for(int i = n - k; i < n; i++) {
+
+        for(int i = nums.length - k; i < nums.length; i++) {
             temp[index++] = nums[i];
         }
 
-        for(int i = n - k - 1; i >= 0; i--) {
-            nums[i + k] = nums[i];
+        for(int i = 0; i < nums.length - k; i++) {
+            temp[index++] = nums[i];
         }
 
-        for(int i = 0; i < k; i++) {
+        for(int i = 0; i < nums.length; i++) {
             nums[i] = temp[i];
         }
-    } 
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
