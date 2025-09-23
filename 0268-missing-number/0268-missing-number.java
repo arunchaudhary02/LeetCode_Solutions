@@ -1,10 +1,20 @@
 class Solution {
     public int missingNumber(int[] nums) {
-         int sum =  nums.length*(nums.length+1)/2;
-        int sum1 =0;
-        for(int n:nums){
-            sum1+=n;
+        Set<Integer> set = new HashSet<>();
+
+        for(int num : nums) {
+            set.add(num);
         }
-        return sum-sum1;
+
+        int num = 1;
+
+        while(num <= nums.length) {
+            if(!set.contains(num)) {
+                return num;
+            }
+            num++;
+        }
+
+        return 0;
     }
 }
