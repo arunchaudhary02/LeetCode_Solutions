@@ -9,6 +9,10 @@
  *     }
  * }
  */
+
+// Optimal 
+
+/*
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) return null;
@@ -25,5 +29,31 @@ public class Solution {
         }
 
         return temp1; // Either the intersection node or null if no intersection
+    }
+}
+*/
+
+public class Solution {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) return null;
+
+        Set<ListNode> visited = new HashSet<>();
+
+        ListNode temp1 = headA;
+
+        while(temp1 != null) {
+            visited.add(temp1);
+            temp1 = temp1.next;
+        }
+
+        ListNode temp2 = headB;
+        while(temp2 != null) {
+            if(visited.contains(temp2)) {
+                return temp2;
+            }
+            temp2 = temp2.next;
+        }
+
+        return null;
     }
 }
