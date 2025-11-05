@@ -1,34 +1,37 @@
 class Solution {
     public boolean isPalindrome(String s) {
-        int l = 0, r = s.length() - 1;
+        
+        s = s.toLowerCase();
+        StringBuilder str = new StringBuilder();
 
-        while(l <= r) {
-
-            // Skip Non-Alphanumeric on Left
-            while(l < r && !isNumOrAlpha(s.charAt(l))){
-                l++;
+        for(int i = 0; i < s.length(); i++) {
+            if(isAlphabetOrNumeric(s.charAt(i))) {
+                str.append(s.charAt(i));
             }
+        }
 
-            // Skip Non-Alphanumeric on Right
-            while(l < r && !isNumOrAlpha(s.charAt(r))) {
-                r--;
-            }
+        int L = 0, R = str.length() - 1;
 
-            if(Character.toLowerCase(s.charAt(l)) != Character.toLowerCase(s.charAt(r))) {
+        while(L < R) {
+            if(str.charAt(L) != str.charAt(R)) {
                 return false;
             }
 
-            l++;
-            r--;
+            L++;
+            R--;
         }
-
 
         return true;
 
     }
 
+    private boolean isAlphabetOrNumeric(char c) {
+        if(('a' <= c && c <= 'z') || ('A' <= c && c <= 'Z') || ('0' <= c && c <= '9')) {
+            return true;
+        }
 
-    private boolean isNumOrAlpha(char c) {
-        return ('A' <= c && c <= 'Z') || ('a' <= c && c <= 'z') || ('0' <= c && c <= '9');
+        return false;
     }
+
+    
 }
