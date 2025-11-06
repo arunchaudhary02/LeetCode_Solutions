@@ -1,3 +1,35 @@
+// Brute Force
+
+
+/*
+class Solution {
+    public boolean areRotations(String s1, String s2) {
+        // code here
+        
+        if(s1.equals(s2)) {
+            return true;
+        }
+        
+        int len = s2.length();
+        StringBuilder builderS2 = new StringBuilder(s2);
+        
+        for(int i = 0; i < s2.length() - 1; i++) {
+            char firstChar = builderS2.charAt(0);
+            builderS2.deleteCharAt(0);
+            builderS2.append(firstChar);
+            
+            if(s1.equals(builderS2.toString())) {
+                return true;
+            }
+        }
+        
+        return false;
+    }
+}
+
+*/
+
+
 class Solution {
     public boolean rotateString(String s, String goal) {
         
