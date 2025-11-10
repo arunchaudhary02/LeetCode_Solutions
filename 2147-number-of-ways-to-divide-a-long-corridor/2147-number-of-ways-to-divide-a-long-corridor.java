@@ -5,20 +5,14 @@ class Solution {
         
         List<Integer> seatsPositions = new ArrayList<>();
 
-        int countS = 0;
         int totalCountS = 0;
 
         for(int i = 0; i < corridor.length(); i++) {
-            if(corridor.charAt(i) == 'S' && countS == 0) {
+            if(corridor.charAt(i) == 'S' ) {
                 seatsPositions.add(i);
-                countS++;
                 totalCountS++;
             }
-            else if(corridor.charAt(i) == 'S' && countS == 1) {
-                seatsPositions.add(i);
-                countS = 0;
-                totalCountS++;
-            }
+            
         }
 
         if(totalCountS % 2 != 0 || seatsPositions.isEmpty()) {
