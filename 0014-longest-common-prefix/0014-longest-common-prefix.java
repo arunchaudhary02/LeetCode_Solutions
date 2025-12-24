@@ -2,32 +2,34 @@
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         
-       
         StringBuilder result = new StringBuilder();
 
-        int minLenString = Integer.MAX_VALUE;
+        int smallLength = Integer.MAX_VALUE;
 
         for(String str : strs) {
-            minLenString = Math.min(minLenString, str.length());
+            smallLength = Math.min(str.length(), smallLength);
         }
 
-        boolean flag = true;
+        for(int i = 0; i < smallLength; i++) {
+            char c = strs[0].charAt(i);
+            boolean flag = true;
 
-        for(int i = 0; i < minLenString; i++) {
-            
-            char letter = strs[0].charAt(i);
-
-            for(int j = 1; j < strs.length; j++) {
-                if(letter != strs[j].charAt(i)) {
+            for(String str : strs) {
+                if(c != str.charAt(i)) {
                     flag = false;
-                    break;
                 }
             }
 
-            if(flag == false) {
+            if(flag == true){
+                result.append(c);
+            }
+            else{
                 break;
             }
-            result.append(letter);
+        }
+
+        if(result.length() == 0){
+            return "";
         }
 
         return result.toString();
