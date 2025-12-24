@@ -2,6 +2,7 @@ class Solution {
     public int[] productExceptSelf(int[] nums) {
 
         // optimal Good approach
+        
 
         // int prod = 1, zeroCount = 0;
         // for (int num : nums) {
@@ -25,6 +26,7 @@ class Solution {
         //     }
         // }
         // return res;
+
 
         // Using prefix and suffix
 
