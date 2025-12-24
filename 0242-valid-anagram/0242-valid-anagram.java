@@ -5,19 +5,22 @@ class Solution {
             return false;
         }
 
-        int[] count1 = new int[26];
-        int[] count2 = new int[26];
+        Map<Character, Integer> mapS = new HashMap<>();
+        Map<Character, Integer> mapT = new HashMap<>();
 
         for(char c : s.toCharArray()) {
-            count1[c - 'a']++;
+            mapS.put(c, mapS.getOrDefault(c, 0) + 1);
         }
 
         for(char c : t.toCharArray()) {
-            count2[c - 'a']++;
+            mapT.put(c, mapT.getOrDefault(c, 0) + 1);
         }
 
-        for(int i = 0; i < 26; i++) {
-            if(count1[i] != count2[i]) {
+        for(Map.Entry<Character, Integer> entry : mapS.entrySet()) {
+            Character key = entry.getKey();
+            int value = entry.getValue();
+
+            if(!mapT.containsKey(key) || mapT.get(key) != value) {
                 return false;
             }
         }
