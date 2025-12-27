@@ -3,14 +3,14 @@ class Solution {
         
         int L = 0, R = nums.length - 1;
 
-        while(L <= R) {
+        while(L <= R){
             int mid = L + (R - L) / 2;
 
-            if(nums[mid] > target) {
-                R = mid - 1;
-            }
-            else if(nums[mid] < target) {
+            if(nums[mid] < target) {
                 L = mid + 1;
+            }
+            else if(nums[mid] > target) {
+                R = mid - 1;
             }
             else{
                 return mid;
