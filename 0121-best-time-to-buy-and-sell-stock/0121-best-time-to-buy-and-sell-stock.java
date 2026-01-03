@@ -28,8 +28,8 @@ class Solution {
         }
 
         return maxProfit;
+
     }
 }
-
 
         
