@@ -30,7 +30,7 @@ class Solution {
 
 // Better 
 
-
+/*
 
 class Solution {
     public boolean rotateString(String s1, String s2) {
@@ -57,3 +57,16 @@ class Solution {
     }
 }
 
+*/
+
+// Optimal
+
+class Solution {
+    public boolean rotateString(String s, String goal) {
+        if(s.length() != goal.length()) {
+            return false;
+        }
+
+        return (s+s).contains(goal);
+    }
+}
