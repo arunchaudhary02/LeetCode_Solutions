@@ -34,6 +34,8 @@ class Solution {
         int left = 0, right = 0, result = 0;
         Map<Integer, Integer> map = new HashMap<>();
 
+        // List<List<Integer>> printSub = new ArrayList<>();
+
         while(right < nums.length) {
             map.put(nums[right], map.getOrDefault(nums[right], 0) + 1);
 
@@ -44,6 +46,16 @@ class Solution {
                 }
                 left++;
             }
+
+            // collect all subarrays ending at 'right'
+            // for(int start = left; start <= right; start++) {
+            //     List<Integer> subArray = new ArrayList<>();
+            //     for(int i = start; i <= right; i++) {
+            //         subArray.add(nums[i]);
+            //     }
+
+            //     printSub.add(subArray);
+            // }
 
             result += right - left + 1;
             right++;
