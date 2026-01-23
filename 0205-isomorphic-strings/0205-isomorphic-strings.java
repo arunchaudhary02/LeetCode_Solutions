@@ -18,7 +18,7 @@ class Solution {
                     return false;
                 }
             } else {
-                // Prevent multiple s characters from mapping to the same t character
+                
                 if (map.containsValue(c2)) {
                     return false;
                 }
