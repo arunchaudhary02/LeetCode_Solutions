@@ -34,13 +34,18 @@ class Solution {
 //     // Using Sliding Window
 //     public int subarraySum(int[] nums, int k) {
 
+//         int n = nums.length;
 //         int count = 0;
 //         int left = 0;
 //         int right  = 0;
-//         int sum = nums[0];
+//         int sum = 0;
 
         
 //         while(right < n) {
+
+//             if(right < n) {
+//                 sum += nums[right];
+//             }
 
 //             while(left <= right && sum > k) {
 //                 sum -= nums[left];
@@ -52,9 +57,6 @@ class Solution {
 //             }
 
 //             right++;
-//             if(right < n) {
-//                 sum += nums[right];
-//             }
 //         }
 
 //         return count;
