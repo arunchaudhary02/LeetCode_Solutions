@@ -1,4 +1,3 @@
-import java.util.*;
 
 class Solution {
     public int numMatchingSubseq(String s, String[] words) {
@@ -65,3 +64,45 @@ class Solution {
         return result;
     }
 }
+
+// Brute Force 
+
+/*
+
+class Solution {
+    public int numMatchingSubseq(String s, String[] words) {
+        
+        int count = 0;
+
+        for(String word : words) {
+            if(isSubsequence(s, word)) {
+                count++;
+            }
+        }
+
+        return count;
+
+    }
+
+    private boolean isSubsequence(String s, String word) {
+        int n = s.length();
+        int m = word.length();
+
+        int i = 0, j = 0;
+
+        while(i < n && j < m) {
+            if(s.charAt(i) == word.charAt(j)) {
+                j++;
+            }
+            i++;
+        }
+
+        if(j == m) {
+            return true;
+        }
+
+        return false;
+    }
+}
+
+*/
