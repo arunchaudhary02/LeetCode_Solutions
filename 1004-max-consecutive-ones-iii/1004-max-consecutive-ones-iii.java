@@ -9,7 +9,9 @@ class Solution {
         while(right < nums.length) {
             if(nums[right] == 0) numOfZeros++;
             if(numOfZeros > k) {
-                if(nums[left] == 0) numOfZeros--;
+                if(nums[left] == 0){
+                    numOfZeros--;
+                } 
                 left++;
             }
 
@@ -21,7 +23,7 @@ class Solution {
 
        
         
-        System.out.println("Current Date and Time: " + formattedDateTime);
+       
         return maxLen;
     }
 }
