@@ -1,37 +1,28 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
+        int left = binarySearch(nums, target, true);
+        int right = binarySearch(nums, target, false);
 
-        int left = -1, right = -1;
-
-        boolean flag = false;
-        for (int i = 0; i < nums.length; i++) {
-            if(nums[i] == target && flag == false) {
-                left = i;
-                right = i;
-                flag = true;
-            }
-            else if(nums[i] == target) {
-                right = i;
-            }
-        }
-
-        return new int[]{left, right};
+        return new int[] {left, right};
     }
 
     private int binarySearch(int[] nums, int target, boolean leftBias) {
         int left = 0, right = nums.length - 1;
         int index = -1;
-        while (left <= right) {
+        while(left <= right) {
             int mid = left + (right - left) / 2;
-            if (nums[mid] < target) {
+            if(nums[mid] < target) {
                 left = mid + 1;
-            } else if (nums[mid] > target) {
+            }
+            else if(nums[mid] > target) {
                 right = mid - 1;
-            } else {
+            }
+            else {
                 index = mid;
-                if (leftBias) {
+                if(leftBias) {
                     right = mid - 1;
-                } else {
+                }
+                else {
                     left = mid + 1;
                 }
             }
