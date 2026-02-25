@@ -1,16 +1,27 @@
 class Solution {
     public int findKthPositive(int[] arr, int k) {
         
-        for(int i = 0; i < arr.length; i++) {
-            if(arr[i] <= k) {
-                k++;
-            }
-            else{
-                break;
+        Set<Integer> set = new HashSet<>();
+
+        int maxNum = 1;
+        
+        for(int num : arr) {
+            set.add(num);
+            maxNum = Math.max(maxNum, num);
+        }
+
+        int nthMissing = 0;
+
+        for(int i = 1; i <= (maxNum + k); i++) {
+            if(!set.contains(i)) {
+                nthMissing++;
+                if(nthMissing == k) {
+                    return i;
+                }
             }
         }
 
-        return k;
+        return -1;
 
     }
 }
