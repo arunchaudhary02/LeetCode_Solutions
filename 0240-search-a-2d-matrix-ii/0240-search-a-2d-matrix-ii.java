@@ -1,9 +1,9 @@
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         
-        int rowLen = matrix[0].length;
+        // int rowLen = matrix[0].length;
         for(int[] row : matrix) {
-            if(binarySearch(row, target, rowLen)) {
+            if(binarySearch(row, target)) {
                 return true;
             }
         }
@@ -11,8 +11,8 @@ class Solution {
         return false;
     }
 
-    private boolean binarySearch(int[] row, int target, int rowLen) {
-        int low = 0, high = rowLen - 1;
+    private boolean binarySearch(int[] row, int target) {
+        int low = 0, high = row.length - 1;
 
         while(low <= high) {
             int mid = low + (high - low) / 2;
