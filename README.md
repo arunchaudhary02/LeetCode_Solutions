@@ -10,5 +10,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0051-n-queens](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0051-n-queens/) | Hard |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0022-generate-parentheses/) | Medium |
+## Dynamic Programming
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0022-generate-parentheses/) | Medium |
 <!---LeetCode Topics End-->
