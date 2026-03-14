@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0047-permutations-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0047-permutations-ii/) | Medium |
 | [0051-n-queens](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0051-n-queens/) | Hard |
 | [0078-subsets](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0078-subsets/) | Medium |
+| [0090-subsets-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0090-subsets-ii/) | Medium |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -17,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0047-permutations-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0047-permutations-ii/) | Medium |
 | [0051-n-queens](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0051-n-queens/) | Hard |
 | [0078-subsets](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0078-subsets/) | Medium |
+| [0090-subsets-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0090-subsets-ii/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -62,4 +64,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0078-subsets](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0078-subsets/) | Medium |
+| [0090-subsets-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0090-subsets-ii/) | Medium |
 <!---LeetCode Topics End-->
