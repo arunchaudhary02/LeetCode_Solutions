@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0047-permutations-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0047-permutations-ii/) | Medium |
 | [0051-n-queens](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0051-n-queens/) | Hard |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -39,4 +40,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0606-construct-string-from-binary-tree](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0606-construct-string-from-binary-tree/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 <!---LeetCode Topics End-->
