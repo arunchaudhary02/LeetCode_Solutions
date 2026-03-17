@@ -2,30 +2,37 @@ class Solution {
     List<List<Integer>> result;
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         result = new ArrayList<>();
+        List<Integer> curr = new ArrayList<>();
+
         Arrays.sort(candidates);
 
-        generateSubset(candidates, target, 0, new ArrayList<>());
+        backtrackHelper(candidates, target, 0, curr);
+
 
         return result;
     }
 
-    private void generateSubset(int[] cand, int target, int i, List<Integer> subset) {
+    private void backtrackHelper(int[] cand, int target, int index, List<Integer> curr) {
+
         if(target == 0) {
-            result.add(new ArrayList<>(subset));
+            result.add(new ArrayList<>(curr));
             return;
         }
 
-        if(target < 0 || i >= cand.length) {
+        if(target < 0 || index >= cand.length){
             return;
         }
 
-        subset.add(cand[i]);
+        curr.add(cand[index]);
+        backtrackHelper(cand, target - cand[index], index + 1, curr);
 
-        generateSubset(cand, target - cand[i], i + 1, subset);
-        subset.remove(subset.size() - 1);
-        while(i + 1 < cand.length && cand[i] == cand[i + 1]) {
-            i++;
+        curr.removeLast();
+
+        while(index + 1 < cand.length && cand[index] == cand[index + 1]){
+            index++;
         }
-        generateSubset(cand, target, i + 1, subset);
+        
+        backtrackHelper(cand, target, index + 1, curr);
     }
+  
 }
