@@ -23,11 +23,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0051-n-queens](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0051-n-queens/) | Hard |
 | [0078-subsets](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0090-subsets-ii/) | Medium |
+| [0784-letter-case-permutation](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0784-letter-case-permutation/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0606-construct-string-from-binary-tree](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0606-construct-string-from-binary-tree/) | Medium |
+| [0784-letter-case-permutation](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0784-letter-case-permutation/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -69,4 +71,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0078-subsets](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0090-subsets-ii/) | Medium |
+| [0784-letter-case-permutation](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0784-letter-case-permutation/) | Medium |
 <!---LeetCode Topics End-->
