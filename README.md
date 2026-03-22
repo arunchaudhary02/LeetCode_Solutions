@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0047-permutations-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0047-permutations-ii/) | Medium |
 | [0051-n-queens](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0051-n-queens/) | Hard |
 | [0078-subsets](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0078-subsets/) | Medium |
+| [0079-word-search](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0090-subsets-ii/) | Medium |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 ## Backtracking
@@ -22,12 +23,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0047-permutations-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0047-permutations-ii/) | Medium |
 | [0051-n-queens](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0051-n-queens/) | Hard |
 | [0078-subsets](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0078-subsets/) | Medium |
+| [0079-word-search](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0090-subsets-ii/) | Medium |
 | [0784-letter-case-permutation](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0784-letter-case-permutation/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0022-generate-parentheses/) | Medium |
+| [0079-word-search](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0079-word-search/) | Medium |
 | [0606-construct-string-from-binary-tree](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0606-construct-string-from-binary-tree/) | Medium |
 | [0784-letter-case-permutation](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0784-letter-case-permutation/) | Medium |
 ## Dynamic Programming
@@ -45,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0079-word-search](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0079-word-search/) | Medium |
 | [0606-construct-string-from-binary-tree](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0606-construct-string-from-binary-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -72,4 +76,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0090-subsets-ii/) | Medium |
 | [0784-letter-case-permutation](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0784-letter-case-permutation/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0079-word-search](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0079-word-search/) | Medium |
 <!---LeetCode Topics End-->
