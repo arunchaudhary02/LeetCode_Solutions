@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0189-rotate-array/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
+| [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0881-boats-to-save-people](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 | [2447-number-of-subarrays-with-gcd-equal-to-k](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2447-number-of-subarrays-with-gcd-equal-to-k/) | Medium |
@@ -57,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0018-4sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0018-4sum/) | Medium |
 | [0047-permutations-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0047-permutations-ii/) | Medium |
 | [0088-merge-sorted-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0088-merge-sorted-array/) | Easy |
+| [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0881-boats-to-save-people](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0881-boats-to-save-people/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
@@ -113,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0088-merge-sorted-array/) | Easy |
 | [0189-rotate-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0189-rotate-array/) | Medium |
 | [0567-permutation-in-string](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0567-permutation-in-string/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0881-boats-to-save-people](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0881-boats-to-save-people/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -140,12 +143,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0567-permutation-in-string](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0567-permutation-in-string/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+| [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+## Heap (Priority Queue)
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 <!---LeetCode Topics End-->
