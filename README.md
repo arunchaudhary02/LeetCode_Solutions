@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0088-merge-sorted-array/) | Easy |
 | [0090-subsets-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0090-subsets-ii/) | Medium |
 | [0189-rotate-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0189-rotate-array/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0881-boats-to-save-people](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
@@ -136,6 +137,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0567-permutation-in-string](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0567-permutation-in-string/) | Medium |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 <!---LeetCode Topics End-->
