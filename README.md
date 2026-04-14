@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0088-merge-sorted-array/) | Easy |
 | [0090-subsets-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0090-subsets-ii/) | Medium |
 | [0189-rotate-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0189-rotate-array/) | Medium |
+| [0198-house-robber](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0198-house-robber/) | Medium |
 | [0209-minimum-size-subarray-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
@@ -52,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0042-trapping-rain-water](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0070-climbing-stairs](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0070-climbing-stairs/) | Easy |
+| [0198-house-robber](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0198-house-robber/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
