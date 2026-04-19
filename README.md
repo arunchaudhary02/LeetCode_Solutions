@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0047-permutations-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0047-permutations-ii/) | Medium |
 | [0051-n-queens](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0051-n-queens/) | Hard |
+| [0066-plus-one](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0066-plus-one/) | Easy |
 | [0078-subsets](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0078-subsets/) | Medium |
 | [0079-word-search](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0079-word-search/) | Medium |
 | [0088-merge-sorted-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0088-merge-sorted-array/) | Easy |
@@ -85,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0066-plus-one](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0066-plus-one/) | Easy |
 | [0070-climbing-stairs](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0189-rotate-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0189-rotate-array/) | Medium |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
