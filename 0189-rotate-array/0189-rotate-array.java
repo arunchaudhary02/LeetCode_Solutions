@@ -1,4 +1,4 @@
-// Methoa 1
+// Methoa 1 time O (n * k) space O(1)
 
 // class Solution {
 //     public void rotate(int[] nums, int k) {
@@ -20,7 +20,7 @@
 // }
 
 
-// Method 2
+// Method 2 time O(n) space O(n)
 
 
 class Solution {
@@ -49,7 +49,6 @@ class Solution {
         }
     }
 }
-
 
 
 
