@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0213-house-robber-ii/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
+| [0416-partition-equal-subset-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0881-boats-to-save-people](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0881-boats-to-save-people/) | Medium |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0070-climbing-stairs](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0070-climbing-stairs/) | Easy |
 | [0198-house-robber](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0213-house-robber-ii/) | Medium |
+| [0416-partition-equal-subset-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
