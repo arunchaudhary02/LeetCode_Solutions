@@ -1,3 +1,5 @@
+// Timit limit exceeded
+/*
 class Solution {
 
     static class Pair {
@@ -65,9 +67,11 @@ class Solution {
     }
 }
 
+*/
+
 
 // Secont method use dp[][] 
-/*
+
 class Solution {
 
     Boolean[][] memo;
@@ -96,4 +100,4 @@ class Solution {
         return memo[index][target] = take || notTake;
     }
 }
-*/
+
