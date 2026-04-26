@@ -1,3 +1,6 @@
+// DP
+
+/*
 class Solution {
     public int uniquePaths(int m, int n) {
         
@@ -20,3 +23,79 @@ class Solution {
         return dp[m - 1][n - 1];
     }
 }
+*/
+
+// Backtracking 
+
+/*
+class Solution {
+    public int uniquePaths(int m, int n) {
+
+        return countPath(0, 0, m, n);
+
+    }
+
+    private int countPath(int row, int col, int m, int n) {
+        
+        if(row == m - 1 && col == n - 1) {
+            return 1;
+        }
+
+        int downCount = 0;
+        if(row != m - 1) {
+            downCount = countPath(row + 1, col, m, n);
+        }
+        
+        int rightCount = 0;
+        if(col != n -1) {
+            rightCount = countPath(row, col + 1, m, n);
+        }
+
+        return downCount + rightCount;
+    }
+}
+
+*/
+
+class Solution {
+    public int uniquePaths(int m, int n) {
+
+        int[][] memo = new int[m][n];
+
+        for(int[] arr : memo) {
+            Arrays.fill(arr, -1);
+        }
+
+        return countPath(0, 0, m, n, memo);
+
+    }
+
+    private int countPath(int row, int col, int m, int n, int[][] memo) {
+        
+        if(row == m - 1 && col == n - 1) {
+            return 1;
+        }
+
+        if(memo[row][col] != -1) {
+            return memo[row][col];
+        }
+
+        int downCount = 0;
+        if(row != m - 1) {
+            downCount = countPath(row + 1, col, m, n, memo);
+        }
+        
+        int rightCount = 0;
+        if(col != n -1) {
+            rightCount = countPath(row, col + 1, m, n, memo);
+        }
+
+        return memo[row][col] = downCount + rightCount;
+    }
+}
+
+
+
+
+
+
