@@ -22,7 +22,7 @@ class Solution {
             return memo[i][j];
         }
 
-        if(i == m - 1 || j == n - 1) {
+        if(i == m - 1 && j == n - 1) {
             return 1;
         }
 
