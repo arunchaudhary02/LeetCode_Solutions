@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0485-max-consecutive-ones/) | Easy |
+| [0518-coin-change-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0518-coin-change-ii/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0881-boats-to-save-people](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [1043-partition-array-for-maximum-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
@@ -74,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0213-house-robber-ii/) | Medium |
 | [0322-coin-change](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0518-coin-change-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0518-coin-change-ii/) | Medium |
 | [1043-partition-array-for-maximum-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
