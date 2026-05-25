@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0567-permutation-in-string/) | Medium |
 | [0606-construct-string-from-binary-tree](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0606-construct-string-from-binary-tree/) | Medium |
 | [0784-letter-case-permutation](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0784-letter-case-permutation/) | Medium |
+| [1143-longest-common-subsequence](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1143-longest-common-subsequence/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -77,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0518-coin-change-ii/) | Medium |
 | [1043-partition-array-for-maximum-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
+| [1143-longest-common-subsequence](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1143-longest-common-subsequence/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
