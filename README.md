@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0518-coin-change-ii/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0881-boats-to-save-people](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0881-boats-to-save-people/) | Medium |
+| [0994-rotting-oranges](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0994-rotting-oranges/) | Medium |
 | [1043-partition-array-for-maximum-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 | [2104-sum-of-subarray-ranges](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2104-sum-of-subarray-ranges/) | Medium |
@@ -138,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0064-minimum-path-sum/) | Medium |
 | [0079-word-search](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0079-word-search/) | Medium |
+| [0994-rotting-oranges](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0994-rotting-oranges/) | Medium |
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -208,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0210-course-schedule-ii/) | Medium |
 | [0322-coin-change](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0322-coin-change/) | Medium |
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
+| [0994-rotting-oranges](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0994-rotting-oranges/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
