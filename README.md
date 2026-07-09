@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0518-coin-change-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0518-coin-change-ii/) | Medium |
+| [0542-01-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0542-01-matrix/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0733-flood-fill](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0733-flood-fill/) | Easy |
 | [0881-boats-to-save-people](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0881-boats-to-save-people/) | Medium |
@@ -79,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0322-coin-change/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0518-coin-change-ii/) | Medium |
+| [0542-01-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0542-01-matrix/) | Medium |
 | [1043-partition-array-for-maximum-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1143-longest-common-subsequence/) | Medium |
 ## Sorting
@@ -141,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0064-minimum-path-sum/) | Medium |
 | [0079-word-search](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0079-word-search/) | Medium |
+| [0542-01-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0994-rotting-oranges/) | Medium |
 ## Number Theory
@@ -212,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0210-course-schedule-ii/) | Medium |
 | [0322-coin-change](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0322-coin-change/) | Medium |
+| [0542-01-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0733-flood-fill](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0994-rotting-oranges/) | Medium |
