@@ -1,36 +1,43 @@
 class Solution {
+    int rows;
+    int cols;
+
     public int numEnclaves(int[][] grid) {
-        int ROWS = grid.length;
-        int COLS = grid[0].length;
-        Set<String> visited = new HashSet<>();
+        rows = grid.length;
+        cols = grid[0].length;
+
+        boolean[][] visited = new boolean[rows][cols];
 
         int totalLand = 0;
-        int borderLand = 0;
+        int boarderLand = 0;
 
-        for(int r = 0; r < ROWS; r++) {
-            for(int c = 0; c < COLS; c++) {
-                totalLand += grid[r][c];
+        for(int row = 0; row < rows; row++) {
+            for(int col = 0; col < cols; col++) {
+                totalLand += grid[row][col];
 
-                if(grid[r][c] == 1 && !visited.contains(r + "|" + c) && (r == 0 || r == ROWS - 1 || c == 0 || c == COLS - 1)) {
-
-                    borderLand += dfs(r, c, grid, visited);
+                if(visited[row][col] == false && grid[row][col] == 1 && (row == 0 || row == rows - 1 || col == 0 || col == cols - 1)) {
+                    boarderLand += dfs(row, col, visited, grid);
                 }
             }
         }
 
-        return totalLand - borderLand;
+        return totalLand - boarderLand;
     }
 
-    private int dfs(int r, int c, int[][] grid, Set<String> visited) {
-        if(r < 0 || r >= grid.length || c < 0 || c >= grid[0].length || grid[r][c] == 0 || visited.contains(r + "|" + c)) {
+    private int dfs(int r, int c, boolean[][] visited, int[][] grid) {
+        if(r < 0 || rows <= r || c < 0 || cols <= c || visited[r][c] == true || grid[r][c] == 0) {
             return 0;
         }
-        
+
         int result = 1;
-        visited.add(r + "|" + c);
-        int[][] directions = {{0, -1}, {0, 1}, {-1, 0}, {1, 0}};
+        visited[r][c] = true;
+        int[][] directions = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
+
         for(int[] direction : directions) {
-            result += dfs(r + direction[0], c + direction[1], grid, visited);
+            int newRow = direction[0] + r;
+            int newCol = direction[1] + c;
+
+            result += dfs(newRow, newCol, visited, grid);
         }
 
         return result;
