@@ -17,7 +17,9 @@ class Solution {
 
         while(!queue.isEmpty()) {
             int[] current = queue.poll();
-            int row = current[0], col = current[1], pathLength = current[2];
+            int row = current[0];
+            int col = current[1];
+            int pathLength = current[2];
 
             if(row == N - 1 && col == N - 1) {
                 return pathLength;
