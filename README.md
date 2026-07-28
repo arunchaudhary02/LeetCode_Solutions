@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
 | [1043-partition-array-for-maximum-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1823-find-the-winner-of-the-circular-game](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1823-find-the-winner-of-the-circular-game/) | Medium |
 | [2104-sum-of-subarray-ranges](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2104-sum-of-subarray-ranges/) | Medium |
 | [2447-number-of-subarrays-with-gcd-equal-to-k](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2447-number-of-subarrays-with-gcd-equal-to-k/) | Medium |
@@ -113,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0743-network-delay-time](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -156,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -210,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -220,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0743-network-delay-time](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0743-network-delay-time/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -235,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -271,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
+| [1631-path-with-minimum-effort](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
