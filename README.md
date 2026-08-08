@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0518-coin-change-ii/) | Medium |
 | [0542-01-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0542-01-matrix/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
+| [0695-max-area-of-island](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0733-flood-fill/) | Easy |
 | [0881-boats-to-save-people](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [0990-satisfiability-of-equality-equations](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
@@ -113,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0210-course-schedule-ii/) | Medium |
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0606-construct-string-from-binary-tree](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0606-construct-string-from-binary-tree/) | Medium |
+| [0695-max-area-of-island](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0733-flood-fill/) | Easy |
 | [0743-network-delay-time](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
@@ -157,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0079-word-search/) | Medium |
 | [0200-number-of-islands](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0542-01-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0542-01-matrix/) | Medium |
+| [0695-max-area-of-island](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0733-flood-fill/) | Easy |
 | [0994-rotting-oranges](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
@@ -237,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0322-coin-change/) | Medium |
 | [0542-01-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
+| [0695-max-area-of-island](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0733-flood-fill/) | Easy |
 | [0743-network-delay-time](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
@@ -280,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
+| [0695-max-area-of-island](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0695-max-area-of-island/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0990-satisfiability-of-equality-equations](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
