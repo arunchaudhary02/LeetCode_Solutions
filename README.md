@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0733-flood-fill](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0733-flood-fill/) | Easy |
 | [0881-boats-to-save-people](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0881-boats-to-save-people/) | Medium |
+| [0990-satisfiability-of-equality-equations](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [0994-rotting-oranges](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
 | [1043-partition-array-for-maximum-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
@@ -69,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0567-permutation-in-string/) | Medium |
 | [0606-construct-string-from-binary-tree](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0606-construct-string-from-binary-tree/) | Medium |
 | [0784-letter-case-permutation](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0784-letter-case-permutation/) | Medium |
+| [0990-satisfiability-of-equality-equations](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1143-longest-common-subsequence/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -250,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0743-network-delay-time](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0990-satisfiability-of-equality-equations](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
@@ -278,6 +281,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0990-satisfiability-of-equality-equations](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
