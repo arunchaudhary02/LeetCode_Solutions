@@ -118,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0733-flood-fill/) | Easy |
 | [0743-network-delay-time](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Binary Tree
@@ -202,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0567-permutation-in-string](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0567-permutation-in-string/) | Medium |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2799-count-complete-subarrays-in-an-array/) | Medium |
 ## Sliding Window
@@ -256,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0743-network-delay-time](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0990-satisfiability-of-equality-equations](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 ## Topological Sort
@@ -286,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0695-max-area-of-island/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0990-satisfiability-of-equality-equations](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
@@ -310,4 +314,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
+## Bipartite Graph
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 <!---LeetCode Topics End-->
