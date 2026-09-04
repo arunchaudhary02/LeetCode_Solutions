@@ -1,3 +1,7 @@
+// USing Dijkstra
+
+/*
+
 class Solution {
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
         // int[][] shortestPaths = new int[n][n];
@@ -38,37 +42,13 @@ class Solution {
             adjList.get(v).add(new int[] {u, wt});
         }
 
-        int[][] shortestPaths = new int[n][n];
+        int[][] shortestPathMatrix = new int[n][n];
 
         for(int src = 0; src < n; src++) {
-            dijkstraSolve(src, adjList, shortestPaths[src]);
-            System.out.println(Arrays.toString(shortestPaths[src]));
+            dijkstraSolve(src, adjList, shortestPathMatrix[src]);
         }
 
-        int resultCity = 0;
-        int countCity = 0;
-
-        for(int i = 0; i < n; i++) {
-            if(shortestPaths[0][i] != Integer.MAX_VALUE && shortestPaths[0][i] != 0 && shortestPaths[0][i] <= distanceThreshold) {
-                countCity++;
-            }
-        }
-
-        for(int i = 1; i < n; i++) {
-            int countCurrent = 0;
-            for(int j = 0; j < n; j++) {
-                if(shortestPaths[i][j] != Integer.MAX_VALUE && shortestPaths[i][j] != 0 && shortestPaths[i][j] <= distanceThreshold) {
-                    countCurrent++;
-                }
-            }
-
-            if(countCurrent <= countCity) {
-                resultCity = i;
-                countCity = countCurrent;
-            }
-        }
-
-        return resultCity;
+        return getCityWithFewestReachable(n, shortestPathMatrix, distanceThreshold);
     }
 
     private void dijkstraSolve(int src, List<List<int[]>> adjList, int[] distance) {
@@ -97,5 +77,90 @@ class Solution {
                 }
             }
         }
+    }
+
+    private int getCityWithFewestReachable(int n, int[][] shortestPathMatrix, int distanceThreshold) {
+        int cityWithFewestReachable = -1;
+        int fewestReachableCount = Integer.MAX_VALUE;
+
+        for(int i = 0; i < n; i++) {
+            int countRechable = 0;
+
+            for(int j = 0; j < n; j++) {
+                if(i != j && shortestPathMatrix[i][j] <= distanceThreshold) {
+                    countRechable++;
+                }
+            }
+
+            if(countRechable <= fewestReachableCount) {
+                fewestReachableCount = countRechable;
+                cityWithFewestReachable = i;
+            }
+        }
+
+        return cityWithFewestReachable;
+    }
+}
+
+*/
+
+// Using Bellman Ford
+
+class Solution {
+    public int findTheCity(int n, int[][] edges, int distanceThreshold) {
+        int[][] shortestPathMatrix = new int[n][n];
+
+        for(int src = 0; src < n; src++) {
+            bellmanFordSolve(src, edges, shortestPathMatrix[src], n);
+        }
+
+        return getCityWithFewestReachable(n, shortestPathMatrix, distanceThreshold);
+    }
+
+    private void bellmanFordSolve(int src, int[][] edges, int[] distance, int V) {
+        Arrays.fill(distance, Integer.MAX_VALUE);
+        distance[src] = 0;
+
+        for(int i = 0; i < V - 1; i++) {
+            for(int[] edge : edges) {
+                int u = edge[0];
+                int v = edge[1];
+                int wt = edge[2];
+
+                // u -> v
+                if(distance[u] != Integer.MAX_VALUE &&
+                distance[u] + wt < distance[v]) {
+                    distance[v] = distance[u] + wt;
+                }
+
+                // v -> u (missing in your code)
+                if(distance[v] != Integer.MAX_VALUE &&
+                distance[v] + wt < distance[u]) {
+                    distance[u] = distance[v] + wt;
+                }
+            }
+        }
+    }
+
+    private int getCityWithFewestReachable(int n, int[][] shortestPathMatrix, int distanceThreshold) {
+        int cityWithFewestReachable = -1;
+        int fewestReachableCount = Integer.MAX_VALUE;
+
+        for(int i = 0; i < n; i++) {
+            int countRechable = 0;
+
+            for(int j = 0; j < n; j++) {
+                if(i != j && shortestPathMatrix[i][j] <= distanceThreshold) {
+                    countRechable++;
+                }
+            }
+
+            if(countRechable <= fewestReachableCount) {
+                fewestReachableCount = countRechable;
+                cityWithFewestReachable = i;
+            }
+        }
+
+        return cityWithFewestReachable;
     }
 }
