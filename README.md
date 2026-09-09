@@ -124,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
+| [1462-course-schedule-iv](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1462-course-schedule-iv/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -254,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1020-number-of-enclaves](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1020-number-of-enclaves/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
+| [1462-course-schedule-iv](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1462-course-schedule-iv/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -267,6 +269,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0990-satisfiability-of-equality-equations](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
+| [1462-course-schedule-iv](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1462-course-schedule-iv/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2976-minimum-cost-to-convert-string-i/) | Medium |
 ## Topological Sort
@@ -274,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0210-course-schedule-ii/) | Medium |
+| [1462-course-schedule-iv](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1462-course-schedule-iv/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
