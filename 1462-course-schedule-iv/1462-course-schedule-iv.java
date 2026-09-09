@@ -1,3 +1,6 @@
+// Topological Sort
+
+/*
 class Solution {
     public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
         List<Set<Integer>> adj = new ArrayList<>();
@@ -37,6 +40,37 @@ class Solution {
 
         for(int[] query : queries) {
             result.add(nodePrere.get(query[1]).contains(query[0]));
+        }
+
+        return result;
+    }
+}
+*/
+
+// Flody warshall 
+
+class Solution {
+    public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
+
+        boolean[][] rechableMatrix = new boolean[numCourses][numCourses];
+
+        for(int[] pre : prerequisites) {
+            rechableMatrix[pre[0]][pre[1]] = true;
+        }
+
+        for(int via = 0; via < numCourses; via++) {
+            for(int i = 0; i < numCourses; i++) {
+                for(int j = 0; j < numCourses; j++) {
+                    if(rechableMatrix[i][via] && rechableMatrix[via][j]){
+                        rechableMatrix[i][j] = true;
+                    }
+                }
+            }
+        }
+
+        List<Boolean> result = new ArrayList<>();
+        for(int[] querie : queries) {
+            result.add(rechableMatrix[querie[0]][querie[1]]);
         }
 
         return result;
