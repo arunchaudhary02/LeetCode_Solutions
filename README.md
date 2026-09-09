@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2447-number-of-subarrays-with-gcd-equal-to-k](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2447-number-of-subarrays-with-gcd-equal-to-k/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2799-count-complete-subarrays-in-an-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2799-count-complete-subarrays-in-an-array/) | Medium |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2976-minimum-cost-to-convert-string-i/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -73,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0784-letter-case-permutation](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0784-letter-case-permutation/) | Medium |
 | [0990-satisfiability-of-equality-equations](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1143-longest-common-subsequence/) | Medium |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2976-minimum-cost-to-convert-string-i/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -266,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1319-number-of-operations-to-make-network-connected](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2976-minimum-cost-to-convert-string-i/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -305,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2976-minimum-cost-to-convert-string-i/) | Medium |
 ## Minimum Spanning Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
