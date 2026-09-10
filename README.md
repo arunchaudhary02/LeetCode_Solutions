@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0322-coin-change](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0322-coin-change/) | Medium |
+| [0399-evaluate-division](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0518-coin-change-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0518-coin-change-ii/) | Medium |
@@ -69,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0022-generate-parentheses](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0079-word-search](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0079-word-search/) | Medium |
+| [0399-evaluate-division](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0567-permutation-in-string](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0567-permutation-in-string/) | Medium |
 | [0606-construct-string-from-binary-tree](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0606-construct-string-from-binary-tree/) | Medium |
 | [0784-letter-case-permutation](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0784-letter-case-permutation/) | Medium |
@@ -115,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0210-course-schedule-ii/) | Medium |
+| [0399-evaluate-division](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0606-construct-string-from-binary-tree](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0606-construct-string-from-binary-tree/) | Medium |
 | [0695-max-area-of-island](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0695-max-area-of-island/) | Medium |
@@ -245,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0210-course-schedule-ii/) | Medium |
 | [0322-coin-change](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0322-coin-change/) | Medium |
+| [0399-evaluate-division](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0542-01-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0695-max-area-of-island/) | Medium |
@@ -262,6 +266,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0210-course-schedule-ii/) | Medium |
+| [0399-evaluate-division](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0743-network-delay-time](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
@@ -298,6 +303,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0399-evaluate-division](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0547-number-of-provinces/) | Medium |
 | [0695-max-area-of-island](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0695-max-area-of-island/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0785-is-graph-bipartite/) | Medium |
@@ -310,6 +316,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0399-evaluate-division](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [0743-network-delay-time](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0743-network-delay-time/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/2976-minimum-cost-to-convert-string-i/) | Medium |
@@ -340,9 +347,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bellman–Ford Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0399-evaluate-division](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 ## Floyd–Warshall Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0399-evaluate-division](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0399-evaluate-division/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 <!---LeetCode Topics End-->
