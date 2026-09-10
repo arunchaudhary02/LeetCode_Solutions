@@ -67,6 +67,8 @@ class Solution {
 
 // Using DFS
 
+
+/*
 class Solution {
     static class Pair {
         String node;
@@ -135,5 +137,75 @@ class Solution {
         }
 
         return -1.0;
+    }
+}
+
+*/
+
+// Floyd warshal Alorigthm
+
+class Solution {
+    public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
+        Map<String, Integer> id = new HashMap<>();
+        int index = 0;
+
+        for(int i = 0; i < equations.size(); i++) {
+            String u = equations.get(i).get(0);
+            String v = equations.get(i).get(1);
+
+            if(!id.containsKey(u)) {
+                id.put(u, index++);
+            }
+            if(!id.containsKey(v)) {
+                id.put(v, index++);
+            }
+        }
+
+        int n = index;
+        double[][] dist = new double[n][n];
+
+        for (int i = 0; i < n; i++) {
+            Arrays.fill(dist[i], -1.0); // Unrechable at -1.0
+            dist[i][i] = 1.0;
+        }
+
+        for(int i = 0; i < equations.size(); i++) {
+            int u = id.get(equations.get(i).get(0));
+            int v = id.get(equations.get(i).get(1));
+            double wt = values[i];
+
+            dist[u][v] = wt;
+            dist[v][u] = 1.0 / wt;
+        }
+
+        for(int via = 0; via < n; via++) {
+            for(int i = 0; i < n; i++) {
+                for(int j = 0; j < n; j++) {
+                    if(dist[i][via] == -1.0 || dist[via][j] == -1.0) {
+                        continue;
+                    }
+
+                    if (dist[i][j] == -1.0) {
+                        dist[i][j] = dist[i][via] * dist[via][j];
+                    }
+                }
+            }
+        }
+
+        double[] result = new double[queries.size()];
+
+        for(int i = 0; i < queries.size(); i++) {
+            String src = queries.get(i).get(0);
+            String dst = queries.get(i).get(1);
+
+            if(!id.containsKey(src) || !id.containsKey(dst)) {
+                result[i] = -1.0;
+            }
+            else{
+                result[i] = dist[id.get(src)][id.get(dst)];
+            }
+        }
+
+        return result;
     }
 }
