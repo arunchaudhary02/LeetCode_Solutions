@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0542-01-matrix/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0695-max-area-of-island](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0695-max-area-of-island/) | Medium |
+| [0704-binary-search](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0704-binary-search/) | Easy |
 | [0733-flood-fill](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0733-flood-fill/) | Easy |
 | [0881-boats-to-save-people](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0881-boats-to-save-people/) | Medium |
 | [0990-satisfiability-of-equality-equations](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0990-satisfiability-of-equality-equations/) | Medium |
@@ -232,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0658-find-k-closest-elements/) | Medium |
+| [0704-binary-search](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/0704-binary-search/) | Easy |
 | [1631-path-with-minimum-effort](https://github.com/arunchaudhary02/LeetCode_Solutions/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
