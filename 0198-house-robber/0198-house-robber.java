@@ -1,95 +1,24 @@
-
-// Approach 1 Recursion + DP
-
-/*
 class Solution {
-
-    int n;
+    int[] dp;
     public int rob(int[] nums) {
-        n = nums.length;
-
-        int[] dp = new int[n];
-
+        dp = new int[nums.length];
         Arrays.fill(dp, -1);
 
-        return recursion(0, nums, dp);
+        return solveRecursion(0, nums);
     }
 
-    private int recursion(int index, int[] nums, int[] dp) {
-
-        if(n <= index) {
+    // take / Not take
+    private int solveRecursion(int index, int[] nums) {
+        if(index >= nums.length) {
             return 0;
         }
-
+        
         if(dp[index] != -1) {
             return dp[index];
         }
+        int leftSum = nums[index] + solveRecursion(index + 2, nums);
+        int rightSum = solveRecursion(index + 1, nums);
 
-        int take = recursion(index + 2, nums, dp) + nums[index];
-        int notTake = recursion(index + 1, nums, dp);
-
-        dp[index] = Math.max(take, notTake);
-
-        return dp[index];
-        
-    }
-
-}
-
-*/
-
-
-// Approach 2 bottom Up
-class Solution {
-
-    int n;
-    public int rob(int[] nums) {
-        n = nums.length;
-
-        if(n == 1) {
-            return nums[0];
-        }
-
-        int[] dp = new int[n + 1];
-
-        dp[0] = 0;
-        dp[1] = nums[0];
-
-        for(int i = 2; i <= n; i++) {
-
-            int take = nums[i - 1] + dp[i - 2];
-            int notTake = dp[i - 1];
-
-            dp[i] = Math.max(take, notTake);
-        }
-
-        return dp[n];
-
+        return dp[index] = Math.max(leftSum, rightSum);
     }
 }
-
-
-// Optimla Approach
-
-/*
-class Solution {
-    public int rob(int[] nums) {
-        int prev = nums[0];
-        int prev2 = 0;
-        int curr = 0;
-
-        for(int i = 1; i < nums.length; i++) {
-            int take = nums[i] + prev2;
-            int notTake = prev;
-
-            curr = Math.max(take, notTake);
-            prev2 = prev;
-            prev = curr;
-        }
-
-        return prev;
-    }
-
-}
-
-*/
